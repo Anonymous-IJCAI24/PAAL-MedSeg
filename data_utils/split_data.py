@@ -4,33 +4,10 @@ import random
 import json
 
 json_path = {
-    'Cervical':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/Cervical_Oar.json',
-    'Nasopharynx':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/Nasopharynx_Oar.json',
-    'Liver':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/Liver_Oar.json',
-    'Stomach':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/Stomach_Oar.json',
-    'Structseg_HaN':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/Structseg_HaN.json',
-    'Structseg_THOR':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/Structseg_THOR.json',
-    'HaN_GTV':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/HaN_GTV.json',
-    'THOR_GTV':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/THOR_GTV.json',
-    'SegTHOR':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/SegTHOR.json',
-    'Covid-Seg':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/Covid-Seg.json', # competition
-    'Lung':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/Lung_Oar.json',
-    'Lung_Tumor':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/Lung_Tumor.json',
-    'Nasopharynx_Tumor':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/Nasopharynx_Tumor.json',
-    'Cervical_Tumor':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/Cervical_Tumor.json',
-    'EGFR':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/EGFR.json',
-    'LITS':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/LITS.json', # competition
-    'ACDC':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/ACDC.json',
-    'MSD01_BrainTumour':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/MSD01_BrainTumour.json', # multi-modality
-    'MSD02_Heart':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/MSD02_Heart.json',
-    'MSD05_Prostate':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/MSD05_Prostate.json', # multi-modality
-    'MSD06_Lung':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/MSD06_Lung.json',
-    'MSD07_Pancreas':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/MSD07_Pancreas.json',
-    'MSD08_HepaticVessel':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/MSD08_HepaticVessel.json',
-    'MSD09_Spleen':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/MSD09_Spleen.json',
-    'MSD10_Colon':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/MSD10_Colon.json',
-    'SegRap':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/SegRap.json',
-    'AMOS-CT':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/AMOS-CT.json',
+    'Liver':'../converter/dcm_converter/static_files/Liver_Oar.json',
+    'SegTHOR':'../converter/nii_converter/static_files/SegTHOR.json',
+    'ACDC':'../converter/nii_converter/static_files/ACDC.json',
+    'MSD01_BrainTumour':'../converter/nii_converter/static_files/MSD01_BrainTumour.json', # multi-modality
 }
 
 
