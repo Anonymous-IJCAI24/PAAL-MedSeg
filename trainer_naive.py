@@ -1,15 +1,3 @@
-# -*- encoding: utf-8 -*-
-'''
-@File    :   trainer_naive.py
-@Time    :   2023/11/06 21:21:13
-@Author  :   Jun Shi 
-@Version :   1.0
-@Contact :   shijun18@mail.ustc.edu.cn
-@License :   (C)Copyright 2019-2025, USTC-ACSA
-'''
-
-# here put the import lib
-
 import os
 import torch
 from torch.nn import DataParallel
@@ -297,7 +285,7 @@ class SemanticSeg(object):
         sample_count = 0
         for epoch in range(self.start_epoch, self.n_epoch):
 
-            setproctitle.setproctitle('{}: {}/{}'.format('Shi Jun', epoch, self.n_epoch))
+            setproctitle.setproctitle('{}: {}/{}'.format('User', epoch, self.n_epoch))
 
             sample_flag = False
             labeled_data = []

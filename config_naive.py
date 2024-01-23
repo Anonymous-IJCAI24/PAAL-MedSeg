@@ -18,10 +18,10 @@ __Sample_strategy__ = ['norm','iq']
 __mode__ = ['2d']
 
 json_path = {
-    'Liver':'/staff/shijun/torch_projects/Med_Seg/converter/dcm_converter/static_files/Liver_Oar.json',
-    'SegTHOR':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/SegTHOR.json',
-    'ACDC':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/ACDC.json',
-    'MSD01_BrainTumour':'/staff/shijun/torch_projects/Med_Seg/converter/nii_converter/static_files/MSD01_BrainTumour.json',# multi-modality
+    'Liver':'../converter/dcm_converter/static_files/Liver_Oar.json',
+    'SegTHOR':'../converter/nii_converter/static_files/SegTHOR.json',
+    'ACDC':'../converter/nii_converter/static_files/ACDC.json',
+    'MSD01_BrainTumour':'../converter/nii_converter/static_files/MSD01_BrainTumour.json',# multi-modality
 }
 
 
